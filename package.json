@@ -3,21 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.8",
     "firebase": "^11.5.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "http-server -p 8080"
+    "start": "http-server ./dist -p 8080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
     "webpack": "^5.98.0",
     "webpack-cli": "^6.0.1"
   }
 }
-
-
